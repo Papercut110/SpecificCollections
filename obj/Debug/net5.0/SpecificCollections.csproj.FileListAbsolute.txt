@@ -1,0 +1,12 @@
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\bin\Debug\net5.0\SpecificCollections.deps.json
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\bin\Debug\net5.0\SpecificCollections.dll
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\bin\Debug\net5.0\ref\SpecificCollections.dll
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\bin\Debug\net5.0\SpecificCollections.pdb
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.csprojAssemblyReference.cache
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.AssemblyInfoInputs.cache
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.AssemblyInfo.cs
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.csproj.CoreCompileInputs.cache
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.dll
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\ref\SpecificCollections.dll
+C:\Users\Gelezyka\Documents\Repository\SpecificCollections\obj\Debug\net5.0\SpecificCollections.pdb
