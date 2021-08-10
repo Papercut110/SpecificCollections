@@ -15,6 +15,13 @@ namespace SpecificCollections
         int _size;
         int _pos;
 
+        public T this[int index]
+        {
+            get { return _values[index]; }
+        }
+
+        public int Count { get { return _values.Length; } }
+
         public ReverseRotation(int size)
         {
             _size = size;
