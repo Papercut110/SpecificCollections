@@ -1,13 +1,11 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpecificCollections
 {
-    public class ReverseRotation<T>
+    public class BackRotation<T>
     {
         int position = -1;
 
@@ -23,7 +21,7 @@ namespace SpecificCollections
 
         public int Count { get { return _values.Length; } }
 
-        public ReverseRotation(int size)
+        public BackRotation(int size)
         {
             _size = size;
             _values = new T[size];
@@ -31,9 +29,17 @@ namespace SpecificCollections
 
         public void Add(T item)
         {
-            if (_pos < _size)
+            if (_pos == 0)
             {
                 _values[_pos] = item;
+                _pos++;
+            }
+            else if (_pos < _size)
+            {
+                var regrouped = new T[_size];
+                Array.ConstrainedCopy(_values, 0, regrouped, 1, _size - 1);
+                regrouped[0] = item;
+                _values = regrouped;
                 _pos++;
             }
             else if (_pos == _size)
@@ -66,6 +72,5 @@ namespace SpecificCollections
         {
             position = -1;
         }
-
     }
 }

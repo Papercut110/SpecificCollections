@@ -16,6 +16,7 @@ namespace SpecificCollections
         public T this[int index]
         {
             get { return _values[index]; }
+            set { _values[index] = value; }
         }
 
         public int Count { get { return _values.Length; } }
